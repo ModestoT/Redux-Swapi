@@ -4,7 +4,7 @@ import './Character.css';
 
 const Character = props => {
   return <div className="character-container">
-    <li>{props.character.name}</li>
+    <h1>{props.character.name}</h1>
     <li>Height: {props.character.height}</li>
     <li>Mass: {props.character.mass}</li>
     <li>Birth Year: {props.character.birth_year}</li>
