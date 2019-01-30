@@ -15,8 +15,8 @@ import rootReducer from "./reducers";
 // rootReducer from ./reducers
 
 const store = createStore(
-  rootReducer
- applyMiddleware(thunk, logger)
+  rootReducer,
+  applyMiddleware(thunk, logger)
 );
 
 ReactDOM.render(
