@@ -1,0 +1,17 @@
+
+.character-container {
+    font-size: 1.4rem;
+    margin-left: 5%;
+    border: 1px solid red;
+    border-radius: 50%;
+    background: black;
+    color: white;
+    padding: 5%;
+    width: 34%;
+    line-height: 3.2rem;
+    text-align: center;
+}
+
+.character-container li {
+    list-style-type: none;
+}
